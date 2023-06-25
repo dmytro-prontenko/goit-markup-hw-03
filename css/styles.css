@@ -207,8 +207,9 @@ img {
   letter-spacing: var(--ls-small);
 }
 
-.footer-container > a {
+.footer-link {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* #endregion FOOTER */
@@ -270,6 +271,7 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
+  padding-left: 0;
 }
 
 .feature-item {
