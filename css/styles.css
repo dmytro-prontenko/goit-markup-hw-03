@@ -31,6 +31,7 @@ h3 {
 ul,
 li {
   margin: 0;
+  /* padding-left: 0; */
 }
 
 p {
@@ -42,13 +43,14 @@ img {
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
   width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
 .list {
@@ -205,6 +207,10 @@ img {
   letter-spacing: var(--ls-small);
 }
 
+.footer-container > a {
+  display: inline-block;
+}
+
 /* #endregion FOOTER */
 
 /** INDEX */
@@ -269,6 +275,7 @@ img {
 .feature-item {
   width: calc((100% - 72px) / 4);
 }
+
 /* #endregion FEATURES */
 
 /** SOLUTIONS */
@@ -285,6 +292,7 @@ img {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  padding-left: 0;
   width: calc((100% - 48px) / 3);
 }
 /* #endregion SOLUTIONS */
