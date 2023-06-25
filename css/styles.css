@@ -297,6 +297,9 @@ img {
   flex-direction: row;
   gap: 24px;
   padding-left: 0;
+}
+
+.solution-item {
   width: calc((100% - 48px) / 3);
 }
 /* #endregion SOLUTIONS */
@@ -305,11 +308,30 @@ img {
 /* #region TEAM*/
 
 .team-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
+.team-container {
+  flex-direction: column;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+}
+
 .teammate {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--page-color);
+}
+
+.teammate-description {
+  padding: 32px 16px;
+  text-align: center;
 }
 /* #endregion TEAM */
 /* #endregion INDEX */
