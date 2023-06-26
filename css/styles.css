@@ -93,7 +93,7 @@ img {
 }
 
 .container {
-  display: flex;
+  /* display: flex; */
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
@@ -204,7 +204,7 @@ img {
 }
 
 .footer-container {
-  display: block;
+  /* display: block; */
   /* flex-direction: column; */
 }
 
@@ -230,6 +230,7 @@ img {
 /* #region HERO*/
 
 .hero-container {
+  display: flex;
   flex-direction: column;
   gap: 48px;
   align-items: center;
@@ -281,6 +282,10 @@ img {
   padding-bottom: 120px;
 }
 
+.features-container {
+  display: flex;
+}
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -300,6 +305,7 @@ img {
 }
 
 .solution-container {
+  display: flex;
   flex-direction: column;
 }
 
@@ -325,6 +331,7 @@ img {
 }
 
 .team-container {
+  display: flex;
   flex-direction: column;
 }
 
@@ -357,6 +364,7 @@ img {
 }
 
 .portfolio-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
