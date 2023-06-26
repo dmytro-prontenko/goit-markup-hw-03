@@ -202,7 +202,8 @@ img {
 }
 
 .footer-container {
-  flex-direction: column;
+  display: block;
+  /* flex-direction: column; */
 }
 
 .footer-description {
